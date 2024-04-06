@@ -12,11 +12,15 @@ root.render(
      theme= {{
        components :{
         Button : {
-          colorPrimary: 'blue ',
+          colorPrimary: 'cyan',
           fontWeight: 'bold',
           colorPrimaryHover: 'blue',
-          borderRadius: '10px'
-         }, }
+          borderRadius: '2px'
+         },
+        token:{
+          borderRadius: '2px'
+        }
+        }
       }}>
 
     <App />
